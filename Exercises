@@ -14,3 +14,12 @@ movie_data = {
 
 # Create the DataFrame
 movies = pd.DataFrame(movie_data)
+
+data = {
+  'name': ['Bart', 'Lisa', 'Homer', 'Marge'],
+  'age': [10, 8, 39, 36],
+  'phone_number': ['', '', '', ''],
+  'astrological_sign': ['', '', '', '']
+}
+
+contacts = pd.DataFrame(data)
